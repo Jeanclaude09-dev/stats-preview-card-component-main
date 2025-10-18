@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --Navy-950: hsl(233, 49%, 7%); /*main background*/
+  --Blue-950: hsl(244, 37%, 16%); /*card background*/
+  --Purple-500: hsl(277, 64%, 61%); /*accent*/
+  --White-gr-75: hsla(0, 0%, 100%, 0.75); /*main paragraph*/
+  --White-gr-06: hsla(0, 0%, 100%, 0.6); /*stat headings*/
+
+  --White: hsl(0, 0%, 100%); /*main heading, stats*/
+  --White-gr-75: hsla(0, 0%, 100%, 0.75); /*main paragraph*/
+  --White-gr-60: hsla(0, 0%, 100%, 0.6); /*stat headings*/
+}
+
+@theme {
+  --color-Navy: var(--Navy-950);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
