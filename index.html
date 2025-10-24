@@ -14,12 +14,14 @@
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body class="bg-[var(--Navy-950)]">
-    <main class="w-full h-screen grid place-items-center">
+    <main
+      class="w-full h-screen grid place-items-center max-md:h-full max-md:p-4"
+    >
       <article
-        class="grid grid-cols-2 max-w-[80%] bg-[var(--Blue-950)] rounded-3xl max-lg:max-w-[90%] max-md:h-full max-md:grid-cols-1 max-md:[grid-template-areas:'two' 'one'] [grid-template-areas: 'one' 'two']"
+        class="grid grid-cols-2 max-w-[80%] bg-[var(--Blue-950)] rounded-lg max-lg:max-w-[90%] max-md:h-full max-md:grid-cols-1"
       >
         <section
-          class="p-12 card-contend flex flex-col gap-6 justify-center [grid-area:one] max-lg:p-6"
+          class="card-text p-12 flex flex-col gap-6 justify-center max-lg:p-6"
         >
           <h1
             class="text-white text-3xl font-bold font-(family-name:--font-lexend-deca) max-w-[350px]"
@@ -31,14 +33,14 @@
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency.
           </p>
-          <section class="flex gap-8 text-[var(--White-gr-60)]">
+          <section
+            class="flex gap-8 text-[var(--White-gr-60)] max-md:gap-5 max-md:flex-col max-md:text-center"
+          >
             <div class="flex flex-col">
               <span class="text-2xl font-semibold cursor-pointer relative group"
                 >10k+
               </span>
-              <span
-                class="absolute top-0 left-0 h-full w-full group-hover:text-[var(--Purple-700)] transition-all duration-300"
-              ></span>
+
               <span>COMPANIES</span>
             </div>
             <div class="flex flex-col">
@@ -51,27 +53,21 @@
             </div>
           </section>
         </section>
-        <section class="[grid-area:two]">
+        <section class="card-image">
           <picture class="relative group">
             <source
-              media="(min-width: 1440px)"
-              srcset="images/image-header-desktop.jpg"
-              alt=""
-              class=""
-            />
-            <source
-              media="(min-width: 476px)"
+              media="(max-width: 40rem)"
               srcset="images/image-header-mobile.jpg"
               class=""
               alt=""
             />
             <img
               src="images/image-header-desktop.jpg"
-              class="rounded-tr-3xl rounded-br-3xl h-full w-full z-1"
+              class="rounded-tr-lg rounded-br-lg h-full w-full z-1 max-md:rounded-t-lg max-md:rounded-b-[0]"
               alt=""
             />
             <span
-              class="absolute w-full h-full bg-[var(--Purple-700)] top-0 left-0 z-0 opacity-50 rounded-tr-3xl rounded-br-3xl"
+              class="absolute w-full h-full bg-[var(--Purple-700)] top-0 left-0 z-0 opacity-70 rounded-tr-lg rounded-br-lg max-md:rounded-t-lg max-md:rounded-b-none"
             ></span>
           </picture>
         </section>

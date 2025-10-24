@@ -33,6 +33,23 @@
   --font-lexend-deca: "Lexend Deca", sans-serif;
 }
 
+.card-text {
+  grid-area: one;
+}
+.card-image {
+  grid-area: two;
+}
+article {
+  grid-template-areas: "one two";
+}
+
+@media (max-width: 600px) {
+  article {
+    grid-template-areas:
+      "two"
+      "one";
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
