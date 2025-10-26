@@ -47,11 +47,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@Jeanclaude09-dev](https://www.frontendmentor.io/profile/Jeanclaude09-dev)
+- Twitter - [jeanclaude09](https://x.com/iamjeanclaude09)
+- Github - [Jeanclaude09-dev](https://github.com/Jeanclaude09-dev)
 
 ## Acknowledgments
 
